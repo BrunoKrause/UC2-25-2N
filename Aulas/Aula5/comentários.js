@@ -1,0 +1,1 @@
+/* Null = Utilizado para que a variável não fique registrada como indefinidade e sim nula.*/
