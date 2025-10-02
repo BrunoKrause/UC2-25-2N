@@ -16,7 +16,7 @@ console.log("Restante do ouro após divisão",restoOuro)
 console.log("Nova recompensa base de Luffy",novaRecompensaLuffy)
 console.log("Pode do Luffy",poderLuffy)
 console.log("Redução do aumento",aumentoRecompensa)
-
+// ugfljff
 let forcaInimigo = 120
 let chanceVitoria = 0.7
 let limiteSegurança = 0.8
