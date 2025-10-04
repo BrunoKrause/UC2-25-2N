@@ -1,6 +1,6 @@
 let idade = prompt("Qual a sua idade?")
 const idadeN = Number(idade)
-const ano = 365
+const ano = 12
 const mes = 30
 const dia = 24
 
