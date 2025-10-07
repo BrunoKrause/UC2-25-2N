@@ -1,4 +1,4 @@
-let idade = prompt("Qual a sua idade?")
+let idade = prompt("Qual a sua idade?") // Number(prompt()) já cria a pergunta ao usuário em Number
 const idadeN = Number(idade)
 let idadeAmigo = prompt("Quantos anos tem seu melhor amigo ou melhor amiga?")
 const idadeAmigoN = Number(idadeAmigo)

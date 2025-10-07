@@ -1,0 +1,25 @@
+Formas de declarar texto
+Aspas duplas "Olá Mundo"
+Aspas simples 'Olá Mundo'
+Crase(Template String ou Template Literals) `Olá Mundo`
+
+informações(propriedades)
+ações(métodos)
+
+w2schools
+
+Propriedades
+
+length (nos diz qual é o tamanho da string, contando os espaços)
+
+Métodos
+
+toLowerCase() (transforma todas as letras de uma variável em letras minúsculas)
+
+toUpperCase() (transforma todas as letras de uma variável em letras maiúsculas)
+
+trim() (tira os espaço iniciais e finais)
+
+includes(caracteres) (procura um conjunto de caracteres dentro de uma string, retornando true ou false )
+
+replaceAll(chars1, chars2) (troca caracteres1 por caracteres em uma variável)
