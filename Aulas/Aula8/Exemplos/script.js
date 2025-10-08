@@ -47,3 +47,34 @@ console.log(novaFrase)
 //Arrays
 const listaDeCompras = ["Abacate","Banana","Tomate"]
 console.log(listaDeCompras)
+
+//length
+const pokemon = ["Bulbassauro","Squirtle","Kadabra","Charmander","Farfetch"]
+console.log(pokemon.length)
+
+//.includes()
+const seriesBoas = ["Vikings", "The Big Bang Theory"]
+console.log(seriesBoas.includes("Vikings"), seriesBoas.includes("GOT"))
+
+//push(elemento)
+const numeros = [1,2,3]
+numeros.push(4)
+console.log(numeros)
+numeros.push(5,6,7)
+console.log(numeros)
+
+//pop()
+const meusPeixes = ["Palhaço","Mandarim","Esturjão"]
+meusPeixes.pop()
+console.log(meusPeixes)
+meusPeixes.pop()
+console.log(meusPeixes)
+
+//splice(i,n)
+// O método splice(i,n) remove n(n representa a quantidade) elementos à partir da posição i do array.
+
+const letras = ["A","B","C","D","E","F","G","H"]
+letras.splice(2,1)
+console.log(letras)
+letras.splice(3,2)
+console.log(letras)
