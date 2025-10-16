@@ -48,7 +48,7 @@ if(maior){
 } else if(igual){
     console.log("Os números são iguais.")
 }*/
-
+/*
 const paisDeOrigem = prompt('Qual o seu país de origem?')
 switch (paisDeOrigem.toLowerCase()) {
     case 'brasil':
@@ -74,3 +74,18 @@ switch (paisDeOrigem.toLowerCase()) {
         console.log('Nacionalidade não encontrada.')
         break;
 } 
+*/
+condicao1 = true
+condicao2 = false
+
+if(condicao1 && !condicao2){
+    console.log('Executou o if do operador && AND')
+}
+
+if(condicao1 || condicao2){
+    console.log('Executou o if do operador || OR')
+}
+
+if(!condicao1){
+    console.log('Executou o if do operador ! NOT')  
+}
