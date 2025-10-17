@@ -38,4 +38,52 @@ B) Qual será a mensagem impressa no console, se o valor de fruta for "Maçã"? 
 C) Qual seria a mensagem impressa no console se comprasse "pera" e retirassemos o "break" que está logo acima do "default"? (O preço da fruta, pera é R$5)
 */
 //3
-const numero2 = Number(prompt())
+const numero2 = Number(prompt('Digite o primeiro número.'))
+
+if(numero2 > 0){
+    console.log('Esse número passou no teste')
+    let mensagem = 'Essa mensagem é secreta!!!'
+}
+console.log(mensagem)
+
+/*A) Pedindo ao usuário que digite um número.
+B) Considere um usuário digitou o número 10. Qual será a mensagem do terminal? (Esse número passou no teste) E se o número for -10? (Não aparecerá mensagem)
+C)Ficará em branco.
+*/
+
+//4
+const podeDirigir = Number(prompt('Qual a sua idade?')) > 18
+if(podeDirigir){
+    console.log('Você pode dirigir')
+} else{
+    console.log('Você não pode dirigir')
+}
+
+//5
+const periodoDoDia = prompt('Qual o período do dia? M(Matutino), V(Vespertino), N(Noturno).')
+
+if(periodoDoDia === 'M'){
+    console.log('Bom dia!')
+} else if(periodoDoDia === 'V'){
+    console.log('Boa tarde!')
+} else if(periodoDoDia === 'N'){
+    console.log('Boa noite!')
+} else{
+    console.log('Digitou errado :(')
+}
+
+//6
+switch(periodoDoDia.toLowerCase()){
+    case 'm':
+        console.log('Bom dia!')
+        break
+    case 'v':
+        console.log('Boa tarde!')
+        break
+    case 'n':
+        console.log('Boa noite')
+        break
+    default:
+        console.log('Digitou errado')
+        break
+}
