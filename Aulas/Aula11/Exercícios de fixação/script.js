@@ -1,4 +1,4 @@
-//1
+//1 
 const respostaDoUsuario = prompt('Digite o número que você quer testar')
 const numero = Number(respostaDoUsuario)
 
@@ -37,6 +37,7 @@ console.log(`O preço da fruta, ${fruta} é R$${preco}`)
 B) Qual será a mensagem impressa no console, se o valor de fruta for "Maçã"? (O preço da fruta, Maça é R$2,25)
 C) Qual seria a mensagem impressa no console se comprasse "pera" e retirassemos o "break" que está logo acima do "default"? (O preço da fruta, pera é R$5)
 */
+
 //3
 const numero2 = Number(prompt('Digite o primeiro número.'))
 
@@ -86,4 +87,16 @@ switch(periodoDoDia.toLowerCase()){
     default:
         console.log('Digitou errado')
         break
+}
+
+//7
+const generoFilme = prompt('Digite o gênero do filme (Drama, Comédia, Terror, Ação, Romance, Ficçao Científica ou Fantasia):')
+const valorIngresso = Number(prompt('Qual o valor do ingresso?'))
+const assistirFilme = (generoFilme.toLowerCase() === 'fantasia' && valorIngresso <= 15)
+console.log(assistirFilme)
+
+if(assistirFilme){
+    console.log('Bom filme!')
+} else {
+    console.log('Escolha outro filme :(')
 }
