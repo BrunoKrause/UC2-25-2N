@@ -53,7 +53,7 @@ C)Ficará em branco.
 */
 
 //4
-const podeDirigir = Number(prompt('Qual a sua idade?')) > 18
+const podeDirigir = Number(prompt('Qual a sua idade?')) >= 18
 if(podeDirigir){
     console.log('Você pode dirigir')
 } else{
@@ -92,7 +92,7 @@ switch(periodoDoDia.toLowerCase()){
 //7
 const generoFilme = prompt('Digite o gênero do filme (Drama, Comédia, Terror, Ação, Romance, Ficçao Científica ou Fantasia):')
 const valorIngresso = Number(prompt('Qual o valor do ingresso?'))
-const assistirFilme = (generoFilme.toLowerCase() === 'fantasia' && valorIngresso <= 15)
+const assistirFilme = (generoFilme.toLowerCase() === 'fantasia' && valorIngresso < 15)
 console.log(assistirFilme)
 
 if(assistirFilme){
