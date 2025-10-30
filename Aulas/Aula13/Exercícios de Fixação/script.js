@@ -81,8 +81,8 @@ for(let numeroString of arrayString){
 }
 
 //E
-let maiorNumeroOriginal = 0
-let menorNumeroOriginal = 100000
+let maiorNumeroOriginal = arrayOriginal[0]
+let menorNumeroOriginal = arrayOriginal[0]
 
 for(let maiorMenor of arrayOriginal){
     if(maiorNumeroOriginal<maiorMenor){
