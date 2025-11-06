@@ -56,11 +56,11 @@ console.log(armResultado)
 
 //2
 const numeros = [100,200,300,400]
-function funNum(numeros){
+function funNum(array){
     //let arrayDiv = [numeros[0]/2, numeros[3]/2]
     let arrayDiv = []
-    arrayDiv.push(numeros[0]/2)
-    arrayDiv.push(numeros[3]/2)
+    arrayDiv.push(array[0]/2)
+    arrayDiv.push(array[array.length-1]/2)
     return arrayDiv
 }
 const arrayDiv = funNum(numeros)
