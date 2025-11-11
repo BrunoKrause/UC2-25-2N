@@ -11,17 +11,17 @@ const funFun = (num1, num2) => {
 funFun(10,20)
 
 //2
-let inventario = []
+let arrayInventario = []
 
-function adicionarItem (inventario2, item) {
-    if(inventario2.length>=5){
-        console.log('Infelizmente o inventário está cheio.')
-    } else if(inventario2.length<5){
-        inventario2.push(item)
+function adicionarItem (inventario, item) {
+    if(inventario.length>=5){
+        console.log('Infelizmente o inventário está cheio.', inventario)
+    } else if(inventario.length<5){
+        inventario.push(item)
     }
 }
 
-adicionarItem(inventario, )
+adicionarItem(arrayInventario, )
 
 function removerItem (inventario, item) {
     if(inventario.toLowerCase().includes(item)){
@@ -35,6 +35,6 @@ function listarItens (inventario) {
     if(inventario.length>0){
         console.log(inventario)
     } else if(inventario.length=0){
-        console.log('O seu inventário está vazio, adicione itens.')
+        console.log('O seu inventário está vazio, adicione itens.', inventario)
     }
 }
